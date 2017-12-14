@@ -14,7 +14,7 @@ class ARSessionManager: NSObject {
     
     /// A serial queue used to coordinate adding or removing nodes from the scene.
     
-    let updateQueue = DispatchQueue(label: "com.example.apple-samplecode.arkitexample.serialSceneKitQueue")
+    let updateQueue = DispatchQueue(label: "com.serial")
     
     /// Coordinates the loading and unloading of reference nodes for virtual objects.
     
@@ -36,7 +36,7 @@ extension ARSessionManager: ARSCNViewDelegate {
             if let planeAnchor = anchor as? ARPlaneAnchor {
                 let newNode = PlaneGenerator.getPlane(from: planeAnchor)
                 node.addChildNode(newNode)
-                let arObject = ARObject(url: URL(fileURLWithPath: "art.scnassets/Paladin"))
+                let arObject = ARObject(url: URL(fileURLWithPath: "/art.scnassets/Paladin.scn"))
                 arObject?.adjustOntoPlaneAnchor(planeAnchor, using: node)
                 self.delegate?.planeNode(is: true, planeAnchor: planeAnchor)
             }

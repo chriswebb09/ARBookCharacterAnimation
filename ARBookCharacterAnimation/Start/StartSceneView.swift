@@ -10,5 +10,13 @@ import SceneKit
 import ARKit
 
 class StartSceneView: ARSCNView {
+  
+   // var manager: PaladinManager!
+    
+    func setup() {
+        //manager = PaladinManager()
+        //scene = manager.scene
+      //  manager.setupDrone()
+    }
     
 }

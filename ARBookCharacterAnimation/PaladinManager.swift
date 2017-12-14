@@ -12,8 +12,18 @@ class PaladinManager: NSObject {
     
     var paladinNode: SCNNode!
     
+    var scene: SCNScene!
+    
     override init() {
+        if let paladinScene = SCNScene(named: "art.scnassets/Paladin.scn") {
+            scene = paladinScene
+        }
         super.init()
+    }
+    
+    convenience init(scene: SCNScene)  {
+        self.init()
+        self.scene = scene
     }
     
 }

@@ -37,7 +37,7 @@ class StartViewController: UIViewController, Controller {
         let scene = SCNScene()
         sceneView.scene = scene
         runSession()
-       // sceneView.setup()
+        sceneView.setup()
     }
     
     func runSession() {
@@ -67,12 +67,17 @@ extension StartViewController: ARSessionManagerDelegate {
     }
     
     func planeNode(is inPlace: Bool, planeAnchor: ARPlaneAnchor) {
-        print(sceneView.session.currentFrame?.lightEstimate)
-        print(sceneView.session.currentFrame?.lightEstimate?.ambientIntensity)
-        let position = SCNVector3(x: planeAnchor.center.x, y: (planeAnchor.center.y - 0.8), z:  planeAnchor.center.z)
-       // self.sceneView.setDroneStart(position: position)
-        self.standardConfiguration.planeDetection = []
-        self.sceneView.session.run(self.standardConfiguration, options: [])
+        
+        
     }
+    
+//    func planeNode(is inPlace: Bool, planeAnchor: ARPlaneAnchor) {
+//        print(sceneView.session.currentFrame?.lightEstimate)
+//        print(sceneView.session.currentFrame?.lightEstimate?.ambientIntensity)
+//        let position = SCNVector3(x: planeAnchor.center.x, y: (planeAnchor.center.y - 0.8), z:  planeAnchor.center.z)
+//       // self.sceneView.setDroneStart(position: position)
+//        self.standardConfiguration.planeDetection = []
+//        self.sceneView.session.run(self.standardConfiguration, options: [])
+//    }
 }
 

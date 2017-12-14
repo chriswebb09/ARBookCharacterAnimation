@@ -79,6 +79,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A73497A31FE249D0004D7BCD /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				A7F7CC091FE20BB0008E8313 /* Start.storyboard */,
+				A7F7CC0B1FE20BBE008E8313 /* StartViewController.swift */,
+				A7F7CC151FE20D63008E8313 /* StartSceneView.swift */,
+				A7F7CC0D1FE20BD0008E8313 /* StartCoordinator.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
 		A7F5A4041FE1F20E003E26D3 = {
 			isa = PBXGroup;
 			children = (
@@ -119,10 +130,7 @@
 				A7F5A43E1FE1FAD8003E26D3 /* AppCoordinator.swift */,
 				A7F5A4401FE1FAF5003E26D3 /* CoordinatorType.swift */,
 				A7F5A4421FE1FBC5003E26D3 /* MainCoordinator.swift */,
-				A7F7CC091FE20BB0008E8313 /* Start.storyboard */,
-				A7F7CC0B1FE20BBE008E8313 /* StartViewController.swift */,
-				A7F7CC151FE20D63008E8313 /* StartSceneView.swift */,
-				A7F7CC0D1FE20BD0008E8313 /* StartCoordinator.swift */,
+				A73497A31FE249D0004D7BCD /* Start */,
 				A7F7CC0F1FE20C46008E8313 /* UIStoryboard+Extension.swift */,
 				A7F7CC111FE20C65008E8313 /* StoryboardIdentifiableError.swift */,
 				A7F7CC131FE20CA3008E8313 /* StoryboardIdentifiable.swift */,

@@ -39,7 +39,11 @@ extension MainCoordinator: ControllerCoordinatorDelegate {
         case .app:
             print("app")
         case .start:
-            print("start")
+            let startCoordinator = StartControllerCoordinator(window: window)
+            addChildCoordinator(startCoordinator)
+            startCoordinator.delegate = self
+            startCoordinator.type = .start
+            startCoordinator.start()
         }
     }
     
