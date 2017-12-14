@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		A7F5A4111FE1F20E003E26D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F5A4101FE1F20E003E26D3 /* AppDelegate.swift */; };
 		A7F5A4131FE1F20E003E26D3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F5A4121FE1F20E003E26D3 /* art.scnassets */; };
-		A7F5A4151FE1F20E003E26D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F5A4141FE1F20E003E26D3 /* ViewController.swift */; };
-		A7F5A4181FE1F20E003E26D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F5A4161FE1F20E003E26D3 /* Main.storyboard */; };
 		A7F5A41A1FE1F20E003E26D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F5A4191FE1F20E003E26D3 /* Assets.xcassets */; };
 		A7F5A41D1FE1F20E003E26D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F5A41B1FE1F20E003E26D3 /* LaunchScreen.storyboard */; };
 		A7F5A4251FE1F234003E26D3 /* ARObjectLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F5A4241FE1F234003E26D3 /* ARObjectLoader.swift */; };
@@ -29,14 +27,19 @@
 		A7F5A43F1FE1FAD8003E26D3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F5A43E1FE1FAD8003E26D3 /* AppCoordinator.swift */; };
 		A7F5A4411FE1FAF5003E26D3 /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F5A4401FE1FAF5003E26D3 /* CoordinatorType.swift */; };
 		A7F5A4431FE1FBC5003E26D3 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F5A4421FE1FBC5003E26D3 /* MainCoordinator.swift */; };
+		A7F7CC0A1FE20BB1008E8313 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F7CC091FE20BB0008E8313 /* Start.storyboard */; };
+		A7F7CC0C1FE20BBE008E8313 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F7CC0B1FE20BBE008E8313 /* StartViewController.swift */; };
+		A7F7CC0E1FE20BD0008E8313 /* StartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F7CC0D1FE20BD0008E8313 /* StartCoordinator.swift */; };
+		A7F7CC101FE20C46008E8313 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F7CC0F1FE20C46008E8313 /* UIStoryboard+Extension.swift */; };
+		A7F7CC121FE20C65008E8313 /* StoryboardIdentifiableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F7CC111FE20C65008E8313 /* StoryboardIdentifiableError.swift */; };
+		A7F7CC141FE20CA3008E8313 /* StoryboardIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F7CC131FE20CA3008E8313 /* StoryboardIdentifiable.swift */; };
+		A7F7CC161FE20D63008E8313 /* StartSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F7CC151FE20D63008E8313 /* StartSceneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A7F5A40D1FE1F20E003E26D3 /* ARBookCharacterAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARBookCharacterAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F5A4101FE1F20E003E26D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7F5A4121FE1F20E003E26D3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		A7F5A4141FE1F20E003E26D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A7F5A4171FE1F20E003E26D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7F5A4191FE1F20E003E26D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7F5A41C1FE1F20E003E26D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7F5A41E1FE1F20E003E26D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +59,13 @@
 		A7F5A43E1FE1FAD8003E26D3 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		A7F5A4401FE1FAF5003E26D3 /* CoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
 		A7F5A4421FE1FBC5003E26D3 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		A7F7CC091FE20BB0008E8313 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		A7F7CC0B1FE20BBE008E8313 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A7F7CC0D1FE20BD0008E8313 /* StartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCoordinator.swift; sourceTree = "<group>"; };
+		A7F7CC0F1FE20C46008E8313 /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		A7F7CC111FE20C65008E8313 /* StoryboardIdentifiableError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifiableError.swift; sourceTree = "<group>"; };
+		A7F7CC131FE20CA3008E8313 /* StoryboardIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifiable.swift; sourceTree = "<group>"; };
+		A7F7CC151FE20D63008E8313 /* StartSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSceneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +100,6 @@
 			children = (
 				A7F5A4101FE1F20E003E26D3 /* AppDelegate.swift */,
 				A7F5A4121FE1F20E003E26D3 /* art.scnassets */,
-				A7F5A4141FE1F20E003E26D3 /* ViewController.swift */,
-				A7F5A4161FE1F20E003E26D3 /* Main.storyboard */,
 				A7F5A4191FE1F20E003E26D3 /* Assets.xcassets */,
 				A7F5A41B1FE1F20E003E26D3 /* LaunchScreen.storyboard */,
 				A7F5A41E1FE1F20E003E26D3 /* Info.plist */,
@@ -111,6 +119,13 @@
 				A7F5A43E1FE1FAD8003E26D3 /* AppCoordinator.swift */,
 				A7F5A4401FE1FAF5003E26D3 /* CoordinatorType.swift */,
 				A7F5A4421FE1FBC5003E26D3 /* MainCoordinator.swift */,
+				A7F7CC091FE20BB0008E8313 /* Start.storyboard */,
+				A7F7CC0B1FE20BBE008E8313 /* StartViewController.swift */,
+				A7F7CC151FE20D63008E8313 /* StartSceneView.swift */,
+				A7F7CC0D1FE20BD0008E8313 /* StartCoordinator.swift */,
+				A7F7CC0F1FE20C46008E8313 /* UIStoryboard+Extension.swift */,
+				A7F7CC111FE20C65008E8313 /* StoryboardIdentifiableError.swift */,
+				A7F7CC131FE20CA3008E8313 /* StoryboardIdentifiable.swift */,
 			);
 			path = ARBookCharacterAnimation;
 			sourceTree = "<group>";
@@ -176,8 +191,8 @@
 			files = (
 				A7F5A4131FE1F20E003E26D3 /* art.scnassets in Resources */,
 				A7F5A41D1FE1F20E003E26D3 /* LaunchScreen.storyboard in Resources */,
+				A7F7CC0A1FE20BB1008E8313 /* Start.storyboard in Resources */,
 				A7F5A41A1FE1F20E003E26D3 /* Assets.xcassets in Resources */,
-				A7F5A4181FE1F20E003E26D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,18 +205,23 @@
 			files = (
 				A7F5A4311FE1F2DA003E26D3 /* Utilties.swift in Sources */,
 				A7F5A4411FE1FAF5003E26D3 /* CoordinatorType.swift in Sources */,
+				A7F7CC161FE20D63008E8313 /* StartSceneView.swift in Sources */,
 				A7F5A4331FE1F31D003E26D3 /* SCNAnimation+Extension.swift in Sources */,
 				A7F5A4391FE1FA57003E26D3 /* Coordinator.swift in Sources */,
 				A7F5A4251FE1F234003E26D3 /* ARObjectLoader.swift in Sources */,
 				A7F5A43F1FE1FAD8003E26D3 /* AppCoordinator.swift in Sources */,
 				A7F5A4291FE1F274003E26D3 /* Array+Extension.swift in Sources */,
+				A7F7CC0E1FE20BD0008E8313 /* StartCoordinator.swift in Sources */,
+				A7F7CC141FE20CA3008E8313 /* StoryboardIdentifiable.swift in Sources */,
 				A7F5A4431FE1FBC5003E26D3 /* MainCoordinator.swift in Sources */,
-				A7F5A4151FE1F20E003E26D3 /* ViewController.swift in Sources */,
 				A7F5A43B1FE1FA91003E26D3 /* ControllerCoordinator.swift in Sources */,
 				A7F5A4111FE1F20E003E26D3 /* AppDelegate.swift in Sources */,
 				A7F5A4271FE1F24F003E26D3 /* ARObject.swift in Sources */,
 				A7F5A42B1FE1F28D003E26D3 /* ARSessionManager.swift in Sources */,
 				A7F5A4351FE1F5D1003E26D3 /* PaladinManager.swift in Sources */,
+				A7F7CC121FE20C65008E8313 /* StoryboardIdentifiableError.swift in Sources */,
+				A7F7CC101FE20C46008E8313 /* UIStoryboard+Extension.swift in Sources */,
+				A7F7CC0C1FE20BBE008E8313 /* StartViewController.swift in Sources */,
 				A7F5A4371FE1F637003E26D3 /* float4+extension.swift in Sources */,
 				A7F5A43D1FE1FAB8003E26D3 /* ControllerCoordinatorDelegate.swift in Sources */,
 				A7F5A42F1FE1F2C7003E26D3 /* PlaneGenerator.swift in Sources */,
@@ -212,14 +232,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A7F5A4161FE1F20E003E26D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A7F5A4171FE1F20E003E26D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A7F5A41B1FE1F20E003E26D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

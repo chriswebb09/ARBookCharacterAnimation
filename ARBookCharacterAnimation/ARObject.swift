@@ -60,7 +60,7 @@ class ARObject: SCNReferenceNode {
             // Add the latest position and keep up to 10 recent distances to smooth with.
             
             recentVirtualObjectDistances.append(hitTestResultDistance)
-            recentVirtualObjectDistances = Array(recentVirtualObjectDistances.suffix(10))
+            recentVirtualObjectDistances = Array(recentVirtualObjectDistances.suffix(12))
             
             let averageDistance = recentVirtualObjectDistances.average!
             let averagedDistancePosition = simd_normalize(positionOffsetFromCamera) * averageDistance
